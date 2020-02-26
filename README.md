@@ -42,7 +42,7 @@ Building the code
     ```
 1. Clone the repository:
     ```shell
-    git clone https://github.com/brave/brave-ios.git
+    git clone https://github.com/flushorg/robinhood-ios
     ```
 1. Pull in the project dependencies:
     ```shell

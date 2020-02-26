@@ -698,6 +698,13 @@
 		7482205C1DBAB56300EEEA72 /* MailProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7482205B1DBAB56300EEEA72 /* MailProviders.swift */; };
 		74B195441CF503FC007F36EF /* RecentlyClosedTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B195431CF503FC007F36EF /* RecentlyClosedTabs.swift */; };
 		74E36D781B71323500D69DA1 /* SettingsContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E36D771B71323500D69DA1 /* SettingsContentViewController.swift */; };
+		7AC5E33DB00316D0CBCDFA32 /* Flush_caaModule.js in Sources */ = {isa = PBXBuildFile; fileRef = 7AC5EC4568AE50157E32E619 /* Flush_caaModule.js */; };
+		7AC5E56C1C2253917667BF8E /* Flush_couponSuccess.js in Sources */ = {isa = PBXBuildFile; fileRef = 7AC5E2620196ED92A60F49EE /* Flush_couponSuccess.js */; };
+		7AC5E617D322B6BEE3F7EC75 /* Flush_caa.js in Sources */ = {isa = PBXBuildFile; fileRef = 7AC5E8216254BDAA6BE89B01 /* Flush_caa.js */; };
+		7AC5E81AA894ECD8728363B6 /* flush_main.css in Resources */ = {isa = PBXBuildFile; fileRef = 7AC5EDD9AB5589E9FB57F1E8 /* flush_main.css */; };
+		7AC5EC16207DCF7E184BF427 /* Flush_utils.js in Sources */ = {isa = PBXBuildFile; fileRef = 7AC5E8CB412156A4BF9CAB35 /* Flush_utils.js */; };
+		7AC5EED291FE1866378CFEEB /* Flush_couponProcess.js in Sources */ = {isa = PBXBuildFile; fileRef = 7AC5EE71D24B716524B0F1E0 /* Flush_couponProcess.js */; };
+		7AC5EF4D051BAB2DBA7E2CEE /* Flush_index.js in Sources */ = {isa = PBXBuildFile; fileRef = 7AC5E99EF03C0207E3D3B2CB /* Flush_index.js */; };
 		7B10AA9F1E3A15020002DD08 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B10AA9E1E3A15020002DD08 /* DataExtensions.swift */; };
 		7B10AABB1E3A1F650002DD08 /* URLRequestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B10AABA1E3A1F650002DD08 /* URLRequestExtensions.swift */; };
 		7B2142FE1E5E055000CDD3FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B2142FC1E5E055000CDD3FC /* InfoPlist.strings */; };
@@ -2164,6 +2171,13 @@
 		74B195431CF503FC007F36EF /* RecentlyClosedTabs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentlyClosedTabs.swift; sourceTree = "<group>"; };
 		74C027441B2A348C001B1E88 /* SessionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionData.swift; sourceTree = "<group>"; };
 		74E36D771B71323500D69DA1 /* SettingsContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsContentViewController.swift; sourceTree = "<group>"; };
+		7AC5E2620196ED92A60F49EE /* Flush_couponSuccess.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Flush_couponSuccess.js; sourceTree = "<group>"; };
+		7AC5E8216254BDAA6BE89B01 /* Flush_caa.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Flush_caa.js; sourceTree = "<group>"; };
+		7AC5E8CB412156A4BF9CAB35 /* Flush_utils.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Flush_utils.js; sourceTree = "<group>"; };
+		7AC5E99EF03C0207E3D3B2CB /* Flush_index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Flush_index.js; sourceTree = "<group>"; };
+		7AC5EC4568AE50157E32E619 /* Flush_caaModule.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Flush_caaModule.js; sourceTree = "<group>"; };
+		7AC5EDD9AB5589E9FB57F1E8 /* flush_main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = flush_main.css; sourceTree = "<group>"; };
+		7AC5EE71D24B716524B0F1E0 /* Flush_couponProcess.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Flush_couponProcess.js; sourceTree = "<group>"; };
 		7B10AA9E1E3A15020002DD08 /* DataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtensions.swift; sourceTree = "<group>"; };
 		7B10AABA1E3A1F650002DD08 /* URLRequestExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestExtensions.swift; sourceTree = "<group>"; };
 		7B2142FD1E5E055000CDD3FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -4261,6 +4275,12 @@
 				D0C95DF9200EAE5E00E4E51C /* NoImageModeHelper.js */,
 				D0C95E03200FCA8800E4E51C /* ReaderMode.js */,
 				D0006623204728A8009BA6F6 /* TrackingProtectionStats.js */,
+				7AC5E99EF03C0207E3D3B2CB /* Flush_index.js */,
+				7AC5EC4568AE50157E32E619 /* Flush_caaModule.js */,
+				7AC5E8216254BDAA6BE89B01 /* Flush_caa.js */,
+				7AC5EE71D24B716524B0F1E0 /* Flush_couponProcess.js */,
+				7AC5E2620196ED92A60F49EE /* Flush_couponSuccess.js */,
+				7AC5E8CB412156A4BF9CAB35 /* Flush_utils.js */,
 			);
 			path = AtDocumentStart;
 			sourceTree = "<group>";
@@ -4782,6 +4802,7 @@
 				E699220D1B94E3EF007C480D /* About */,
 				F84B22391A0914A300AAB793 /* Fonts */,
 				F35B8D2A1D6380EA008E3D61 /* SessionRestore.html */,
+				7AC5EDD9AB5589E9FB57F1E8 /* flush_main.css */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -5609,6 +5630,7 @@
 				D03F8F23200EAC1F003C2224 /* AllFramesAtDocumentStart.js in Resources */,
 				0AA21E4A2302C4CC00358988 /* webauth_verify_key.json in Resources */,
 				279C75C821A5B37D001CD1CB /* FingerprintingProtection.js in Resources */,
+				7AC5E81AA894ECD8728363B6 /* flush_main.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6431,6 +6453,12 @@
 				27D87C2E2152B50200FB55C6 /* GradientView.swift in Sources */,
 				0A4B012220D02F26004D4011 /* TabBarCell.swift in Sources */,
 				27FD2CAC2146C31C00A5A779 /* FindInPageActivity.swift in Sources */,
+				7AC5EF4D051BAB2DBA7E2CEE /* Flush_index.js in Sources */,
+				7AC5E33DB00316D0CBCDFA32 /* Flush_caaModule.js in Sources */,
+				7AC5E617D322B6BEE3F7EC75 /* Flush_caa.js in Sources */,
+				7AC5EED291FE1866378CFEEB /* Flush_couponProcess.js in Sources */,
+				7AC5E56C1C2253917667BF8E /* Flush_couponSuccess.js in Sources */,
+				7AC5EC16207DCF7E184BF427 /* Flush_utils.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
